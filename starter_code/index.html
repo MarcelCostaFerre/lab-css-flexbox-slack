@@ -11,6 +11,10 @@
 
   <!-- link your styles -->
   <link rel="stylesheet" href="./stylesheets/style.css" />
+  <link rel="stylesheet" href="./stylesheets/style-mobil.css" />
+  <link rel="stylesheet" href="./stylesheets/style-small.css" />
+  <link rel="stylesheet" href="./stylesheets/style-medium.css" />
+  
 
   <link rel="icon" type="image/x-icon" href="./images/slack-icon.png">
   <title>Slack is your digital HQ | Slack</title>
@@ -38,15 +42,15 @@
     </div>
 
     <div class="div2-nav">
-      <button class="button-nav">
+      <button class="button-nav-search">
         <img src="./images/icon-search.png" alt="Search icon">
       </button>
 
-      <button class="button-nav">
+      <button class="button-nav-menu">
         <img src="./images/icon-menu.png" alt="Menu icon">
       </button>
 
-      <ul hidden>
+      <ul class="display-none">
         <li>
           <a href="#" class="nav-a">Sign in</a>
         </li>
@@ -63,7 +67,7 @@
 
       <p class="slack-free"><span class="paragraph-yelow">Slack is free to try</span> for as long as you'd like.</p>
 
-      <div class="flex">
+      <div class="flex-column justify-center">
         <button class="sign-email">Sign up with email</button>
 
         <button  class="sign-google">
@@ -94,7 +98,7 @@
 
     </section>
 
-    <section class="background-ivory flex padding-bottom">
+    <section class="background-ivory flex-column padding-bottom">
       <div>
         <img src="./images/connectedness-mobile.png" alt="connectedness" class="img-main-connectedness"/>
       </div>
@@ -107,22 +111,22 @@
           channels, it's easier to connect across departments, offices, time zones and even other companies.
         </p>
 
-        <a href="#">
+        <a href="#" class="padding-left-5">
           <span>Learn more about channels</span>
         </a>
       </div>
     </section>
 
-    <section class="background-ivory flex padding-bottom">
+    <section class="background-ivory flex-column-reverse padding-bottom">
       <div class="background-ivory">
-        <h2 class="padding-left">Choose how you want to work</h2>
-        <p class="p-main padding-left">
+        <h2 class="padding-left-5">Choose how you want to work</h2>
+        <p class="p-main padding-left-5">
           In Slack, you’ve got all the flexibility to work when, where and how it’s best for you. You can easily chat,
           send
           audio and video clips, or hop on a huddle to talk things out live.
         </p>
 
-        <a href="#" class="padding-left">
+        <a href="#" class="p-main padding-left-5">
           <span>Learn more about flexible communication</span>
         </a>
       </div>
@@ -132,7 +136,7 @@
       </div>
     </section>
 
-    <section class="background-ivory flex padding-bottom">
+    <section class="background-ivory flex-column padding-bottom-5">
       <div>
         <img src="./images/speed-mobile.png" alt="speed" class="img-main-speed"/>
       </div>
@@ -144,7 +148,7 @@
           tools like Workflow Builder, you can automate away routine tasks.
         </p>
 
-        <a href="#">
+        <a href="#" class="padding-left-5">
           <span>Learn more about the Slack platform</span>
         </a>
       </div>
@@ -155,14 +159,14 @@
       <h3 class="h3-teams">Teams large and small rely on Slack</h3>
       <p class="p-slack">Slack securely scales up to support collaboration at the world’s biggest companies.</p>
 
-      <div class="flex justify-center">
+      <div class="flex-column justify-center">
         <button class="boto-meet">Meet Slack for enterprise</button>
         <button class="boto-talk">Talk to sales</button>
       </div>
 
-      <ul class="flex justify-between">
+      <ul class="flex-column ul-percentatges">
         <li>
-          <p><span class="span-percentatges">85%</span></p>
+          <p class="span-percentatges"><span>85%</span></p>
           <p class="p-percentatges">
             of users say Slack has improved communication
             <sup>*</sup>
@@ -170,7 +174,7 @@
         </li>
 
         <li>
-          <p><span class="span-percentatges">86%</span></p>
+          <p class="span-percentatges"><span>86%</span></p>
           <p class="p-percentatges">
             feel their ability to work remotely has improved has improved
             <sup>*</sup>
@@ -178,7 +182,7 @@
         </li>
 
         <li>
-          <p><span class="span-percentatges">88%</span></p>
+          <p class="span-percentatges"><span>88%</span></p>
           <p class="p-percentatges">
             feel more connected to their teams*
             <sup>*</sup>
@@ -189,7 +193,7 @@
 
     <section class="background-purple">
       <h3 class="h3-welcome">Welcome to your new digital HQ</h3>
-      <div class="flex justify-center">
+      <div class="flex-column-reverse justify-center">
         <button class="try-for-free-welcome">Try for free</button>
         <button class="boto-talk-welcome">Talk to sales</button>
       </div>  
@@ -200,7 +204,7 @@
   <footer>
     <img src="./images/iso-slack.png" alt="Slack logo" class="logo-footer"/>
     <div  class="flex justify-between">
-      <ul class="footer-list">
+      <ul class="footer-list-why">
         <li class="li-bold">WHY SLACK?</li>
         <li class="li-footer">Slack vs. Email</li>
         <li class="li-footer">Channels</li>

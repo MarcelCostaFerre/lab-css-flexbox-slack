@@ -9,9 +9,9 @@ links blue: #2E71A6
 footer links grey: #454245
 */
 
-/* large */
+/* medium */
 
-@media all and (min-width: 1441px) {
+@media all and (min-width: 1025px) and (max-width: 1440px) {
 
     body {
         margin: 0;
@@ -24,13 +24,13 @@ footer links grey: #454245
         justify-content: space-between;
         padding: 3vh 5vh 0 5vh;
     }
-
+    
     .nav-a {
         text-decoration: none;
         color: white;
         font-weight: bold;
     }
-
+    
     .try-for-free {
         background-color: white;
         color: #540B51;
@@ -40,62 +40,62 @@ footer links grey: #454245
         font-weight: bold;
         
     }
-
+    
     .logo {
         width: 13%;
         height: auto;
     }
-
+    
     ul {
         display: flex;
         list-style: none;
         gap: 2rem;
     }
-
+    
     .div1-nav {
         display: flex;
         align-items: center;
     }
-
+    
     .div2-nav {
         display: flex;
     }
-
+    
     .button-nav-search {
         background-color: #540B5100;
         border: 0;
     }
-
+    
     .button-nav-menu {
         background-color: #540B5100;
         border: 0;
     }
-
+    
     header {
         display: flex;
         background-color:#540B51;
         padding-bottom: 20vh;
         padding-right: 30vh;
     }
-
+    
     h1 {
         color: white;
-        font-size: 0.1rem;
+        font-size: 6rem;
         padding-left: 10vh;
         width: 100vh;
         padding-right: 20vh;
     }
-
+    
     .flex {
         display: flex;
     }
-
+    
     .img-div2-header {
         width: 150%;
         height: auto;
         padding-top: 20vh;
     }
-
+    
     .slack-free {
         color: white;
         font-weight: bold;
@@ -105,7 +105,7 @@ footer links grey: #454245
     .paragraph-yelow {
         color: #ECB12F;
     }
-
+    
     .sign-email {
         background-color: white;
         color: #540B51;
@@ -129,7 +129,7 @@ footer links grey: #454245
         border: 0;
         width: 47vh;
     }
-
+    
     .logo-google {
         width: 8%;
         height: auto;
@@ -138,21 +138,21 @@ footer links grey: #454245
         padding: 0.5rem;
         margin-right: 4vh;
     }
-
+    
     .span-boto-google {
         padding-top: 2vh;
     }
-
+    
     .background-ivory {
         background-color: #F3EAE2;
     }
-
+    
     .background-purple {
         background-color: #540B51;
     }
-
-
-
+    
+    
+    
     .paragraph-trusted {
         width: 100%;
         text-align: center;
@@ -161,14 +161,14 @@ footer links grey: #454245
         padding: 10vh 0 5vh 0;
         margin: 0;
     } 
-
+    
     .div-logos {
         display: flex;
         justify-content: space-around;
         align-items: center;
         padding: 0 10vh 15vh 20vh;
     }
-
+    
     .airbnb {
         width: 8%;
         height: 10%;
@@ -193,12 +193,12 @@ footer links grey: #454245
         width: 10%;
         height: 12%;
     }
-
+    
     .img-main-connectedness {
         width: 45%;
         height: auto;
     }
-
+    
     .img-main-flexibility {
         width: 55%;
         height: auto;
@@ -209,7 +209,7 @@ footer links grey: #454245
         height: auto;
         padding-bottom: 5vh;
     }
-
+    
     h2 {
         background-color: #F3EAE2;
         text-align: left;
@@ -219,22 +219,22 @@ footer links grey: #454245
         padding: 5vh 20vh 3vh 0;
         margin: 0;
     }
-
+    
     .p-main {
         width: 80vh;
         font-weight: bold;
         padding: 0 20vh 3vh 0;
         margin: 0;
     }
-
+    
     .padding-left {
         padding-left: 20vh;
     }
-
+    
     .padding-bottom {
         padding-bottom: 10vh;
     }
-
+    
     .h3-teams {
         width: 100%;
         text-align: center;
@@ -243,13 +243,13 @@ footer links grey: #454245
         padding: 5vh 0 2vh 0;
         margin: 0;
     }
-
+    
     .p-slack {
         text-align: center;
         font-weight: bold;
         font-size: 1.2rem;
     }
-
+    
     .boto-meet {
         background-color: #540B51;
         border: 0;
@@ -261,7 +261,7 @@ footer links grey: #454245
         margin: 0 2vh 5vh 0;
         font-size: 1rem;
     }
-
+    
     .boto-talk {
         background-color: white;
         border-color: #540B51;
@@ -273,15 +273,15 @@ footer links grey: #454245
         margin: 0 0 5vh 0;
         font-size: 1rem;
     }
-
+    
     .justify-center {
         justify-content: center;
     }
-
+    
     .justify-between {
         justify-content: space-between;
     }
-
+    
     .span-percentatges {
         color: #540B51;
         font-size: 4rem;
@@ -289,21 +289,21 @@ footer links grey: #454245
         padding: 0 10vh;
         margin: 0;
     }
-
+    
     .p-percentatges {
         width: 30vh;
         font-weight: bold;
         padding: 0 10vh;
         margin: 0;
     }
-
+    
     .h3-welcome {
         color: white;
         font-size: 3rem;
         text-align: center;
         padding: 10vh 0 0 0;
     }
-
+    
     .boto-talk-welcome {
         background-color: #540B51;
         border-color: white;
@@ -326,13 +326,13 @@ footer links grey: #454245
         font-size: 1rem;
         margin-bottom: 8vh;
     }
-
+    
     .logo-footer {
         width: 3.5%;
         height: auto;
         padding: 6vh;
     }
-
+    
     .footer-list {
         display: flex;
         flex-direction: column;
@@ -340,16 +340,16 @@ footer links grey: #454245
         padding-bottom: 4vh;
         margin: 0;
     }
-
+    
     .li-bold {
         font-size: 0.9rem;
         font-weight: bold;
     }
-
+    
     .li-footer {
         font-size: 0.8rem;
     }
-
+    
     .footer-status {
         display: flex;
         justify-content: space-between;
@@ -358,30 +358,21 @@ footer links grey: #454245
         font-size: 0.8rem;
         padding-top: 4vh;
     }
-
+    
     .logos-xarxes {
         font-size: 1.3rem;
         padding: 3vh 0 3vh 6vh;
         justify-content: baseline;
     }
-
+    
     .copy-footer {
         padding-left: 6vh;
         padding-bottom: 10vh;
         font-size: 0.9rem;
     }
-
+    
     .padding-left-5 {
         padding-left: 5vh;
     }
     
 }
-
-
-
-
-
-
-
-
-
