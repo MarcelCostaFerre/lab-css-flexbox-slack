@@ -18,20 +18,87 @@ footer links grey: #454245
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    .flex {
+        display: flex;
+    }
+
+    .flex-column {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .flex-column-reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .flex-center-column {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .diplay-none {
+        display: none;
+        margin: 0;
+    }
+
+    .background-ivory {
+        background-color: #F3EAE2;
+    }
+    
+    .background-purple {
+        background-color: #540B51;
+    }
+
+    .padding-left {
+        padding-left: 20vh;
+    }
+
+    .padding-left-5 {
+        padding-left: 5vh;
+    }
+
+    .padding-left-10 {
+        padding-left: 10vh;
+    }
+    
+    .padding-bottom {
+        padding-bottom: 10vh;
+    }
+
+    .padding-bottom-5 {
+        padding-bottom: 5vh;
+    }
+
+    .justify-center {
+        justify-content: center;
+    }
+    
+    .justify-between {
+        justify-content: space-between;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
     nav {
         display: flex;
         background-color:#540B51;
         justify-content: space-between;
-        padding: 3vh 5vh 0 5vh;
+        padding: 3vh 0 0 3vh;
     }
     
     .nav-a {
+        display: none;
         text-decoration: none;
         color: white;
         font-weight: bold;
     }
     
     .try-for-free {
+        display: none;
         background-color: white;
         color: #540B51;
         padding: 2vh;
@@ -42,14 +109,14 @@ footer links grey: #454245
     }
     
     .logo {
-        width: 13%;
+        width: 20%;
         height: auto;
     }
     
     ul {
         display: flex;
         list-style: none;
-        gap: 2rem;
+        margin: 0;
     }
     
     .div1-nav {
@@ -64,6 +131,7 @@ footer links grey: #454245
     .button-nav-search {
         background-color: #540B5100;
         border: 0;
+        padding-right: 2vh;
     }
     
     .button-nav-menu {
@@ -73,34 +141,32 @@ footer links grey: #454245
     
     header {
         display: flex;
+        max-width: 1024;
+        width: 100%;
         background-color:#540B51;
-        padding-bottom: 20vh;
+        padding-bottom: 15vh;
         padding-right: 30vh;
     }
     
     h1 {
         color: white;
-        font-size: 6rem;
-        padding-left: 10vh;
-        width: 100vh;
-        padding-right: 20vh;
-    }
-    
-    .flex {
-        display: flex;
+        font-size: 5rem;
+        padding-left: 3vh;
+        width: 90%;
     }
     
     .img-div2-header {
-        width: 150%;
+        width: 100%;
         height: auto;
-        padding-top: 20vh;
+        padding-top: 13vh;
     }
     
     .slack-free {
         color: white;
         font-weight: bold;
-        font-size: 1.5rem;
-        padding-left: 10vh;
+        font-size: 1.8rem;
+        padding-left: 3vh;
+        width: 85%;
     }
     .paragraph-yelow {
         color: #ECB12F;
@@ -109,136 +175,143 @@ footer links grey: #454245
     .sign-email {
         background-color: white;
         color: #540B51;
+        width: 90%;
         border-radius: 5px;
         text-transform: uppercase;
         font-weight: bold;
-        padding: 3vh 10vh;
         font-size: 1.1rem;
+        padding: 3vh 5vh;
         border: 0;
-        margin: 0 2vh 0 10vh;
+        margin: 0 2rem 1rem 2rem;
     }
     .sign-google {
         display: flex;
+        align-content: center;
         background-color: #4285F4;
         color: white;
-        padding: 0.5rem;
+        width: 90%;
         border-radius: 5px;
         text-transform: uppercase;
         font-weight: bold;
         font-size: 1.1rem;
+        padding: 1vh;
         border: 0;
-        width: 47vh;
+        margin: 0 2rem 0 2rem;
+        
     }
-    
+
     .logo-google {
         width: 8%;
         height: auto;
         background-color: white;
         border-radius: 5%;
         padding: 0.5rem;
-        margin-right: 4vh;
+        text-align: left;
+        /* margin-right: 15.3vh; */
     }
-    
+
     .span-boto-google {
-        padding-top: 2vh;
+        display: flex;
+        align-items: center; 
+        padding-left: 20%;
+              
     }
-    
-    .background-ivory {
-        background-color: #F3EAE2;
-    }
-    
-    .background-purple {
-        background-color: #540B51;
-    }
-    
-    
-    
+
     .paragraph-trusted {
         width: 100%;
         text-align: center;
         text-transform: uppercase;
         font-weight: bold;
-        padding: 10vh 0 5vh 0;
+        padding: 5vh 0 3vh 0;
         margin: 0;
+        font-size: 1.5rem;
     } 
     
     .div-logos {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        padding: 0 10vh 15vh 20vh;
+        padding: 0 3vh 15vh 3vh;
     }
     
     .airbnb {
-        width: 8%;
-        height: 10%;
+        width: 15%;
+        height: auto;
+        padding-right: 2rem;
     }
     .nasa {
-        width: 5%;
-        height: 10%;
+        width: 8%;
+        height: auto;
+        padding-right: 2rem;
     }
     .uber {
-        width: 5%;
-        height: 10%;
+        width: 15%;
+        height: auto;
+        padding-right: 2rem;
     }
     .target {
-        width: 4%;
-        height: 10%;
+        width: 7%;
+        height: auto;
+        padding-right: 2rem;
     }
     .ny-times {
-        width: 15%;
-        height: 20%;
+        width: 30%;
+        height: auto;
+        padding-right: 2rem;
     }
     .spotify {
-        width: 10%;
-        height: 12%;
+        width: 20%;
+        height: auto;
+    }
+
+    .section-bring-move {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-choose {
+        display: flex;
+        flex-direction: column-reverse;
     }
     
     .img-main-connectedness {
-        width: 45%;
+        width: 80%;
         height: auto;
     }
-    
+
     .img-main-flexibility {
-        width: 55%;
+        width: 80%;
         height: auto;
-        padding-left: 42.5vh;
+        padding-left: 4.8rem;
     }
     .img-main-speed {
-        width: 45%;
+        width: 80%;
         height: auto;
         padding-bottom: 5vh;
     }
     
     h2 {
         background-color: #F3EAE2;
+        width: 80%;
         text-align: left;
         font-size: 3rem;
         font-weight: bold;
-        width: 75vh;
-        padding: 5vh 20vh 3vh 0;
+        width: 85%;
+        padding: 5vh 0 3vh 10vh;
         margin: 0;
     }
     
     .p-main {
-        width: 80vh;
+        width: 70%;
         font-weight: bold;
-        padding: 0 20vh 3vh 0;
+        padding: 0 0 3vh 10vh;
         margin: 0;
-    }
-    
-    .padding-left {
-        padding-left: 20vh;
-    }
-    
-    .padding-bottom {
-        padding-bottom: 10vh;
     }
     
     .h3-teams {
         width: 100%;
         text-align: center;
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: bold;
         padding: 5vh 0 2vh 0;
         margin: 0;
@@ -247,7 +320,12 @@ footer links grey: #454245
     .p-slack {
         text-align: center;
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 1em;
+    }
+
+    .div-button-meet-talk {
+        display: flex;
+        justify-content: center;
     }
     
     .boto-meet {
@@ -273,27 +351,29 @@ footer links grey: #454245
         margin: 0 0 5vh 0;
         font-size: 1rem;
     }
-    
-    .justify-center {
-        justify-content: center;
-    }
-    
-    .justify-between {
-        justify-content: space-between;
+
+    .ul-percentatges {
+        display: flex;
+        justify-content: space-around;
+        max-width: 1024px;
+        width: 100%;
+        padding: 0;
+        align-items: center;
     }
     
     .span-percentatges {
         color: #540B51;
         font-size: 4rem;
         font-weight: bold;
-        padding: 0 10vh;
+        align-items: center;
+        /* padding: 0 10vh; */
         margin: 0;
     }
     
     .p-percentatges {
-        width: 30vh;
+        width: 20vh;
         font-weight: bold;
-        padding: 0 10vh;
+        /* padding: 0 10vh; */
         margin: 0;
     }
     
@@ -301,7 +381,12 @@ footer links grey: #454245
         color: white;
         font-size: 3rem;
         text-align: center;
-        padding: 10vh 0 0 0;
+        padding: 5vh 0 0 0;
+    }
+
+    .div-button-try-talk {
+        display: flex;
+        flex-direction: column;
     }
     
     .boto-talk-welcome {
@@ -312,7 +397,7 @@ footer links grey: #454245
         color: white;
         text-transform: uppercase;
         font-weight: bold;
-        margin: 0 0 8vh 1vh;
+        margin: 0 10vh 5vh 10vh;
         font-size: 1rem;
     }
     .try-for-free-welcome {
@@ -324,13 +409,21 @@ footer links grey: #454245
         text-transform: uppercase;
         font-weight: bold;
         font-size: 1rem;
-        margin-bottom: 8vh;
+        margin: 0 10vh 2vh 10vh;
     }
     
     .logo-footer {
-        width: 3.5%;
+        width: 6%;
         height: auto;
-        padding: 6vh;
+        padding: 3vh 2vh;
+    }
+
+    .footer-list-why {
+        display: flex;
+        flex-direction: column;
+        font-size: 1rem;
+        padding-left: 2vh;
+        margin: 0;
     }
     
     .footer-list {
@@ -344,35 +437,32 @@ footer links grey: #454245
     .li-bold {
         font-size: 0.9rem;
         font-weight: bold;
+        padding: 2vh 2vh 1vh 0;
     }
     
     .li-footer {
         font-size: 0.8rem;
+        padding: 2vh 0;
     }
     
     .footer-status {
         display: flex;
         justify-content: space-between;
-        padding-right: 5vh;
         font-weight: bold;
         font-size: 0.8rem;
-        padding-top: 4vh;
+        padding: 4vh 5vh 0 2vh;
+        
     }
     
     .logos-xarxes {
         font-size: 1.3rem;
-        padding: 3vh 0 3vh 6vh;
+        padding: 3vh 0 3vh 2vh;
         justify-content: baseline;
     }
     
     .copy-footer {
-        padding-left: 6vh;
+        padding-left: 2vh;
         padding-bottom: 10vh;
         font-size: 0.9rem;
     }
-    
-    .padding-left-5 {
-        padding-left: 5vh;
-    }
-   
 }
